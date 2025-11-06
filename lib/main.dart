@@ -104,7 +104,7 @@ class WelcomeScreen extends StatelessWidget {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Text('Welcome to My Profile',
+                Text('Welcome to My Profilee',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 34,
