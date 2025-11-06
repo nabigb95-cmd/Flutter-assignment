@@ -69,9 +69,9 @@ final sampleJson = {
   "bio": "Enthusiastic Flutter dev building beautiful, responsive UIs. Loves learning and sharing knowledge.",
   "email": "nabi95@gmail.com",
   "phone": "+92 3554422095", 
-  "location": "Gilgit, Pakistan"
-  image: "assets/images/my pic.jpg"
-};
+  "location": "Gilgit, Pakistan" 
+  // image: "assets/images/my pic.jpg"
+}; 
 
 final sampleUser = UserProfile.fromJson(sampleJson);
 
@@ -173,7 +173,7 @@ class ProfileScreen extends StatelessWidget {
               children: [
                 CircleAvatar(
                   radius: 60,
-                  backgroundImage: AssetImage('assets/profile.jpg'), // Add your image here in /assets
+                  backgroundImage: AssetImage('assets/profile.jpg'),  
                 ),
                 SizedBox(height: 12),
                 Text(user.name, style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
@@ -301,7 +301,7 @@ class AboutScreen extends StatelessWidget {
                 children: [
                   Text('Bachelor of Science in Computer Science', style: TextStyle(fontWeight: FontWeight.bold)),
                   SizedBox(height: 6),
-                  Text('University XYZ — 2018-2022')
+                  Text('University KIU — 2023-2027')
                 ],
               ),
             ),
